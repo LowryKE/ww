@@ -1,0 +1,52 @@
+# Build output and local IDE state
+**/bin/
+**/obj/
+**/.vs/
+**/.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+*.code-workspace
+
+# Test, diagnostic and publish output
+**/TestResults/
+**/coverage/
+*.trx
+*.coverage
+*.coveragexml
+/artifacts/
+/publish/
+*.nupkg
+*.snupkg
+
+# Captured sessions and exports (not source assets)
+*.subterra
+*.ply
+
+# Local account data, credentials and environment
+admin-account.json
+admin-account.json.*
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+*.pem
+*.snk
+*.pubxml
+*.publishsettings
+.aws/
+.codex/
+
+# Temporary and OS files
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
